@@ -31,7 +31,13 @@ Pod::Spec.new do |spec|
   spec.source_files  = "CTPresenterClient/**/*.{h,m,swift}"
   
   # spec.public_header_files = "Classes/**/*.h"
-
+ # spec.dependency 'Firebase/Analytics'
+ # spec.dependency 'Firebase/Crashlytics'
+  spec.dependency 'JitsiMeetSDK'
+  spec.dependency 'SnapKit'
+  spec.dependency 'ReachabilitySwift'
+  spec.dependency 'TPKeyboardAvoidingSwift'
+  spec.dependency 'WKWebViewJavascriptBridge'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

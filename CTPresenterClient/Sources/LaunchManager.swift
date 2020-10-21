@@ -10,6 +10,8 @@ import UIKit
 
 public class LaunchManager {
     
+    public init() {}
+    
     public func showStartVC(from viewController: UIViewController) {
         let startvc = StartViewController()
         startvc.modalPresentationStyle = .popover
