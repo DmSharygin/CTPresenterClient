@@ -12,7 +12,7 @@ public class LaunchManager {
     
     public func showStartVC(from viewController: UIViewController) {
         let startvc = StartViewController()
-        viewController.navigationController?.pushViewController(startvc, animated: true)
+        startvc.modalPresentationStyle = .popover
+        viewController.present(startvc, animated: true, completion: nil)
     }
-
 }
